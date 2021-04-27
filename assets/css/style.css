@@ -1,0 +1,194 @@
+body, html{
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+#nav {
+	margin-left: 20px;
+	margin-top: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: #646363;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+.intro {
+	height: 650px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+#title {
+	font-size: 5em;
+	text-align: center;
+	letter-spacing: 2px;
+	/* background-image: url("../img/zhong.png"); */
+	font-family: 'Oleo Script', cursive;
+	color: #343333;
+}
+
+#titledesc {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.18em;
+	margin-top: 15px;
+	margin-left: 29%;
+	margin-right: 29%;
+	color: #343333;
+}
+
+.arrow {
+	text-align: center;
+	width: 10%;
+	margin-left: 45%;
+	position: relative;
+	bottom: 30px;
+}
+
+.subtitle {
+	font-family: 'Lora', serif;
+	font-weight: 600;
+	font-size: 2.5em;
+	margin-bottom: 20px;
+	color: #343333;
+}
+
+#materialdesc {
+	font-size: 1.15em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #535151;
+}
+
+#container1 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	height: 650px;
+	padding-top: 10px;
+}
+
+.tool {
+	cursor: pointer;
+	width: 250px;
+	border-radius: 20px;
+	margin: 28px;
+}
+
+.toolcontainer {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.toolbox {
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 20px;
+	box-shadow: 0 2px 2px 2px rgb(163, 162, 162);
+}
+
+.tool:hover {
+	animation: shake 0.5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+#s2 {
+	margin-top: 50px;
+	margin-bottom: 39px;
+}
+
+#s3 {
+	margin-top: 25px;
+}
+
+#tool1, #tool2, #tool3{
+	display: none;
+}
+
+.info {
+	width: 20%;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 20px;
+	text-align: left;
+	color: #1F1E1E;
+}
+
+.toolname {
+	font-family: 'Lora', serif;
+	font-weight: 500;
+}
+
+.toolbio {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	display: n
+}
+  
+  @keyframes shake {
+	0% {
+		transform: translateX(0px) rotate(0deg);
+	}
+
+	20% {
+		transform: translateX(-4px) rotate(-4deg);
+	}
+
+	40% {
+		transform: translateX(-2px) rotate(-2deg);
+	}
+
+	60% {
+		transform: translateX(4px) rotate(4deg);
+	}
+
+	80% {
+		transform: translateX(2px) rotate(2deg);
+	}
+
+	100% {
+		transform: translateX(0px) rotate(0deg);
+	}
+  }
+
+
+#container2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 600px;
+	margin-top: 10%;
+	margin-left: 15%;
+	margin-right: 12%;
+}
+
+#strokeinfo {
+	margin-top:20px;
+}
+
+#strokedesc {
+	padding-top: 20px;
+	font-size: 1.15em;
+	width: 90%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #535151;
+}
+
+#click {
+	padding-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	width: 90%;
+	color: #646363;
+}
+
+#rotator {
+	cursor: pointer;
+}
